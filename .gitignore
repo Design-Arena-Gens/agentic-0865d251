@@ -915,3 +915,11 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# Allow key project manifests
+!package.json
+!package-lock.json
+!.eslintrc.json
+!tsconfig.json
+!lib/
+!lib/**/*.ts
